@@ -14,6 +14,6 @@ provider "aws" {
 	}
 
 resource "aws_instance" "Devops" {
-	ami = "ami-0c2b8ca1dad447f8a" 
+	ami = "ami-0614680123427b75e" 
 	instance_type = "t2.micro"
 }
